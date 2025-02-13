@@ -1,10 +1,40 @@
+import UseProps from "./UseProps";
+
+import styles from "./DiaTreze.module.css";
 
 const DiaTreze = () => {
   return (
     <div>
-      
-    </div>
-  )
-}
+      <h1>Galeria Exemplar</h1>
 
-export default DiaTreze
+      <div className={styles.cardArea}>
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+        <UseProps />
+      </div>
+    </div>
+  );
+};
+
+export default DiaTreze;
